@@ -24,6 +24,8 @@ class StatsTest(unittest.TestCase):
     statsAlerter.checkAndAlert([22.6, 12.5, 3.7])
     self.assertTrue(emailAlert.emailSent)
     self.assertTrue(ledAlert.ledGlows)
-
+  def EmailAlert(self):
+    return none
+  
 if __name__ == "__main__":
   unittest.main()
